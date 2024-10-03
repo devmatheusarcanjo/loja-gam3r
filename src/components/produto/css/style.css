@@ -1,9 +1,3 @@
-:root {
-  --violeta: #0e001d;
-  --violeta-claro: #621dac;
-  --violeta-claro-hover: #7724cf;
-}
-
 .-produto {
   /* padding: 0 0 20px; */
   background-color: var(--violeta);

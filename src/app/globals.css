@@ -11,6 +11,10 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --violeta: #0e001d;
+    --violeta-claro: #621dac;
+    --violeta-claro-hover: #7724cf;
+    --min-width: 1280px;
   }
 }
 
@@ -47,6 +51,7 @@ a {
 
 @layer components {
   .container {
-    @apply max-w-7xl mx-auto px-10;
+    @apply max-w-7xl mx-auto;
+    /* @apply max-w-7xl mx-auto px-10;s */
   }
 }

@@ -23,12 +23,15 @@ export default function ProdutoItem(props: ProdutoProps) {
 
   const carrinho = React.useRef(null);
 
-  const animacaoCarrinho = React.useCallback((valor: boolean) => {
-    if (carrinho.current) {
-      if (valor) carrinho.current.classList.add('-carrinho-hover');
-      else carrinho.current.classList.remove('-carrinho-hover');
-    }
-  }, []);
+  const animacaoCarrinho = React.useCallback(
+    (valor: boolean) => {
+      if (carrinho.current) {
+        if (valor) carrinho.current.classList.add('-carrinho-hover');
+        else carrinho.current.classList.remove('-carrinho-hover');
+      }
+    },
+    [carrinho]
+  );
 
   return (
     <Link href={`/produto/${produto.id}`} className="-produto">
