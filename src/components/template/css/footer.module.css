@@ -1,0 +1,50 @@
+.footer {
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.footer h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.footer ul > * {
+  cursor: pointer;
+}
+
+.barra {
+  height: 2px;
+  background-image: linear-gradient(
+    to left,
+    #2a0b56 0%,
+    #652ec1 50%,
+    #230e44 100%
+  );
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  padding: 10px;
+}
+
+.sessao_links {
+  display: flex;
+  gap: 20px;
+}
+
+.sessao_links > * {
+  flex: 1;
+}
+
+.container_icones {
+  display: flex;
+  gap: 5px;
+}
+
+.decidindoNome {
+  display: flex;
+  justify-content: space-between;
+}

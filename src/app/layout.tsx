@@ -6,8 +6,6 @@ const font = Montserrat({
   subsets: ['latin'],
 });
 
-console.log(font);
-
 export const metadata: Metadata = {
   title: 'Gam3r.store',
   description: 'Versão mais basica da loja de jogos',

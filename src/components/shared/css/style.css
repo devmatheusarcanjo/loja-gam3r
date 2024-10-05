@@ -13,6 +13,7 @@
   height: 50px;
   background-color: var(--violeta);
   position: relative;
+  cursor: pointer;
 }
 
 .-numero-quantidade-carrinho {

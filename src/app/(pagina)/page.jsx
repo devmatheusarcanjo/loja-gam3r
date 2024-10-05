@@ -8,6 +8,7 @@ import useProdutos from '@/data/hooks/useProdutos';
 
 export default function Inicio() {
   const { produtos } = useProdutos();
+  console.log(produtos);
 
   return (
     <div className="-container container">

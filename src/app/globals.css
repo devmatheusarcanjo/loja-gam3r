@@ -51,7 +51,7 @@ a {
 
 @layer components {
   .container {
-    @apply max-w-7xl mx-auto;
-    /* @apply max-w-7xl mx-auto px-10;s */
+    /* @apply max-w-7xl mx-auto; */
+    @apply max-w-7xl mx-auto px-10;
   }
 }
